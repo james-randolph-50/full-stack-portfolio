@@ -18,7 +18,7 @@ export const projects = [
   {
     id: 2,
     title: "Sketch AI",
-    des: "Generate AI images based on your input drawing. (video)",
+    des: "Generate AI images based on your input drawing.",
     img: "/Sketch-AI.png",
     iconLists: ["/re.svg", "/tail.svg",],
     link: "https://sketch-ai-rose.vercel.app/",
