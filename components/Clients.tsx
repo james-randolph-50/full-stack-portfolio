@@ -2,8 +2,7 @@
 
 import React from "react";
 
-import { skills, testimonials } from "@/data";
-// import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { skills } from "@/data";
 
 const Clients = () => {
   return (
@@ -14,16 +13,6 @@ const Clients = () => {
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        {/* <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-        >
-          <InfiniteMovingCards
-            items={testimonials}
-            direction="right"
-            speed="slow"
-          />
-        </div> */}
 
         <div className="flex flex-col sm:flex-row text-center flex-wrap items-center justify-center mt-16 gap-4 md:gap-16 max-lg:mt-10">
           {skills.map((skill) => (
