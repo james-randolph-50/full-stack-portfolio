@@ -9,7 +9,7 @@ export const projects = [
   {
     id: 1,
     title: "Meteor Dash",
-    des: "Computer vision arcade game controlled by your hands.",
+    des: "Computer vision arcade game controlled by your hands. (Desktop w/ webcam only)",
     img: "/meteor-dash.png",
     iconLists: ["/re.svg", "/tail.svg",],
     link: "https://meteor-dash-chi.vercel.app/",
