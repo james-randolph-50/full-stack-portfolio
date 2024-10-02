@@ -8,6 +8,15 @@ export const navItems = [
 export const projects = [
   {
     id: 1,
+    title: "Marble Race",
+    des: "3D Game w/ randomly generate obstacles (Desktop only)",
+    img: "/marble-race.png",
+    iconLists: ["/three.svg",],
+    link: "https://marble-race-gamma.vercel.app/",
+    cta: "View Site"
+  },
+  {
+    id: 2,
     title: "Meteor Dash",
     des: "Computer vision arcade game controlled by your hands. (Desktop w/ webcam only)",
     img: "/meteor-dash.png",
@@ -16,7 +25,7 @@ export const projects = [
     cta: "View Site"
   },
   {
-    id: 2,
+    id: 3,
     title: "Twitter/X Web App Clone",
     des: "NextJS front end with Appwrite database and authentication",
     img: "/Postr.png",
@@ -25,7 +34,7 @@ export const projects = [
     cta: "View Site"
   },
   {
-    id: 3,
+    id: 4,
     title: "Sketch AI",
     des: "Generate AI images based on your input drawing.",
     img: "/Sketch-AI.png",
@@ -34,7 +43,7 @@ export const projects = [
     cta: "View Site"
   },
   {
-    id: 4,
+    id: 5,
     title: "Nature Tours Landing Page",
     des: "Landing page for a mock adventure travel company.",
     img: "/nature-tours.png",
@@ -43,7 +52,7 @@ export const projects = [
     cta: "View Site"
   },
   {
-    id: 5,
+    id: 6,
     title: "3D Haunted House",
     des: "House with 'ghosts' and a randomly generated graveyard",
     img: "/haunted-house.png",
@@ -52,7 +61,7 @@ export const projects = [
     cta: "View Site"
   },
   {
-    id: 6,
+    id: 7,
     title: "3D Galaxy Generator",
     des: "Customizable galaxy generator in ThreeJS",
     img: "/galaxy.png",
