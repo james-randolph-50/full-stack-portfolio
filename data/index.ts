@@ -9,7 +9,7 @@ export const projects = [
   {
     id: 1,
     title: "Marble Race",
-    des: "3D Game w/ randomly generate obstacles (Desktop only)",
+    des: "3D Game w/ randomly generated obstacles (Desktop only)",
     img: "/marble-race.png",
     iconLists: ["/three.svg",],
     link: "https://marble-race-gamma.vercel.app/",
