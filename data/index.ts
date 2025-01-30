@@ -7,6 +7,15 @@ export const navItems = [
 
 export const projects = [
   {
+    id: 10,
+    title: "Voom - Video Conferencing",
+    des: "Video Chat app built with NextJS & Stream",
+    img: "/voom.png",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://voom-ik44-5z3hawreu-jamesrandolph50s-projects.vercel.app/",
+    cta: "View Site"
+  },
+  {
     id: 9,
     title: "iPhone Marketing Page",
     des: "Interactive 3D element, animated video carousels, etc.",
