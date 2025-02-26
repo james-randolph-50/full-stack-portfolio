@@ -7,6 +7,15 @@ export const navItems = [
 
 export const projects = [
   {
+    id: 11,
+    title: "Serverless AI Image Generator",
+    des: "React, Python, and Runpod Serverless GPU",
+    img: "/serverless.png",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://youtu.be/4S9N5ZWs38c",
+    cta: "Watch Video"
+  },
+  {
     id: 10,
     title: "Voom - Video Conferencing",
     des: "Video Chat app built with NextJS & Stream",
